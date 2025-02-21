@@ -1,4 +1,4 @@
-name: :clock5: Run Nightly Pipeline
+name: ":clock5: Run Nightly Pipeline"
 
 on:
   push:
