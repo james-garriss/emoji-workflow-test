@@ -1,10 +1,10 @@
-name: ":clock5: Run Nightly Pipeline"
+name: "U+1F3E0Run Nightly Pipeline"
 
 on:
   push:
 
 jobs:
-  test-job:
+  "test-job":
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
