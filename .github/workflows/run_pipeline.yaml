@@ -1,0 +1,11 @@
+name: :clock5: Run Nightly Pipeline
+
+on:
+  push:
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
